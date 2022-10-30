@@ -1,0 +1,140 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    color:black;
+    outline:none;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+header{
+    height:80px;
+    width:100vw;
+    border-bottom: 2px solid #dddddd;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.admin-content{
+    display:flex;
+}
+.admin-content-left{
+    background-color: #dddddd;
+    width:20%;
+    height:800px;
+    padding:30px 0 0 40px;
+}
+.admin-content-left >ul>li>a {
+    font-weight: bold;
+}
+.admin-content-left ul li{
+    margin: 10px 0;
+}
+.admin-content-left ul ul{
+    margin-left: 20px;
+}
+.admin-content-right {
+    width:80%;
+    padding:30px 0 0 40px;
+}
+.admin-content-right-cartegory_add input{
+    height:30px;
+    width:200px;
+    padding-left:12px;
+    margin-top:20px;
+}
+.admin-content-right-cartegory_add button{
+    display:block;
+    margin-top:10px;
+    height:30px;
+    width:100px;
+    cursor: pointer;
+    background-color: brown;
+    border:none;
+    color:white;
+    transition:all 0.3s ease;
+}
+.admin-content-right-cartegory_add button:hover{
+    background-color: transparent;
+    border: 1px solid brown;
+    color: brown;
+}
+/* --------------------Cartegorylist---------------------- */
+.admin-content-right-cartegory_list table{
+    width:100%;
+    text-align: center;
+    margin-top: 20px;
+}
+.admin-content-right-cartegory_list table tr th,td{
+    border:1px solid #dddddd;
+}
+table{
+    border-collapse: collapse;
+}
+/* --------------Product-------------- */
+.admin-content-right-product_add h1{
+    margin-bottom: 20px;
+}
+.admin-content-right-product_add input,select{
+    width:200px;
+    height:30px;
+    display:block;
+    margin:6px 0 12px;
+    padding-left: 12px;
+}
+.admin-content-right-product_add textarea{
+    display:block;
+    height:200px;
+    width:500px;
+    margin-bottom:12px;
+    padding: 12px;
+}
+.admin-content-right-product_add button{
+    display:block;
+    margin-top:10px;
+    height:30px;
+    width:100px;
+    cursor: pointer;
+    background-color: brown;
+    border:none;
+    color:white;
+    transition:all 0.3s ease;
+}
+.admin-content-right-product_add button:hover{
+    background-color: transparent;
+    border: 1px solid brown;
+    color: brown;
+}
+
+/* ---------------------search------------------------ */
+#search_admin{
+    display:flex;
+    align-items: center;
+    margin: 10px 0 20px 0;
+    width:415px;
+    display:flex;
+    margin-bottom: 40px;
+}
+#search-text{
+    flex:2;
+    padding: 5px 10px;
+    margin-right:16px;
+    border:1px solid #dddddd;
+    border-radius:4px;
+}
+#search-btn{
+    padding:5px 8px;
+    color:rgb(61, 60, 60);
+    background-color: #fff;
+    border: 1px solid #dddddd;
+    border-radius:4px;
+    cursor:pointer;
+}
+#search-btn :hover {
+    color: #dddddd;
+}
